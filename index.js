@@ -21,10 +21,3 @@ function tailsNeverFails() {
   return `You got ${tails_count} tails in a row!`;
 }
 
-function tailsNeverFails() {
-    let counter = 0;
-    while(Math.random() >= 0.5 === true) {
-      counter++;
-    }
-  return `You got ${counter} tails in a row!`
-}
